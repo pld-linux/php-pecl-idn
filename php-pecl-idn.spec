@@ -5,7 +5,7 @@ Summary(pl):	idn - wi±zanie do GNU libidn
 Name:		php-pecl-idn
 Version:	0.1
 Release:	1
-License:	PHP 2.02
+License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	ef8635ec22348325a76abd2abddca4a1
