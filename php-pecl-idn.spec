@@ -26,7 +26,7 @@ Binding to the GNU libidn for using Internationalized Domain Names.
 In PECL status of this package is: %{_status}.
 
 %description -l pl
-Wi±zanei do GNU libidn do u¿ywania umiêdzynarodowionych nazw domen
+Wi±zanie do GNU libidn do u¿ywania umiêdzynarodowionych nazw domen
 (Internationalized Domain Names).
 
 To rozszerzenie ma w PECL status: %{_status}.
