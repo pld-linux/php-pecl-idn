@@ -1,7 +1,8 @@
 %define		_modname	idn
 %define		_status		beta
-Summary:	%{_modname} - binding to the GNU libidn
-Name:		php-pecl-%{_modname}
+Summary:	idn - binding to the GNU libidn
+Summary(pl):	idn - wi±zanie do GNU libidn
+Name:		php-pecl-idn
 Version:	0.1
 Release:	1
 License:	PHP 2.02
@@ -13,7 +14,7 @@ BuildRequires:	libidn-devel
 BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
-Obsoletes:	php-pear-%{_modname}
+Obsoletes:	php-pear-idn
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc/php
@@ -23,6 +24,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Binding to the GNU libidn for using Internationalized Domain Names.
 
 In PECL status of this package is: %{_status}.
+
+%description -l pl
+Wi±zanei do GNU libidn do u¿ywania umiêdzynarodowionych nazw domen
+(Internationalized Domain Names).
+
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
