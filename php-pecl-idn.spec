@@ -11,7 +11,6 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	ef8635ec22348325a76abd2abddca4a1
 URL:		http://pecl.php.net/package/idn/
 BuildRequires:	libidn-devel
-BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-pear-idn
