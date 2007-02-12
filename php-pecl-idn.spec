@@ -1,7 +1,7 @@
 %define		_modname	idn
 %define		_status		beta
 Summary:	idn - binding to the GNU libidn
-Summary(pl):	idn - wi±zanie do GNU libidn
+Summary(pl.UTF-8):   idn - wiÄ…zanie do GNU libidn
 Name:		php-pecl-idn
 Version:	0.1
 Release:	2
@@ -23,8 +23,8 @@ Binding to the GNU libidn for using Internationalized Domain Names.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-Wi±zanie do GNU libidn do u¿ywania umiêdzynarodowionych nazw domen
+%description -l pl.UTF-8
+WiÄ…zanie do GNU libidn do uÅ¼ywania umiÄ™dzynarodowionych nazw domen
 (Internationalized Domain Names).
 
 To rozszerzenie ma w PECL status: %{_status}.
