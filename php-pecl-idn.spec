@@ -4,7 +4,7 @@ Summary:	idn - binding to the GNU libidn
 Summary(pl.UTF-8):	idn - wiązanie do GNU libidn
 Name:		php-pecl-idn
 Version:	0.1
-Release:	2
+Release:	3
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
