@@ -4,11 +4,12 @@ Summary:	idn - binding to the GNU libidn
 Summary(pl.UTF-8):	idn - wiązanie do GNU libidn
 Name:		php-pecl-idn
 Version:	0.1
-Release:	3
+Release:	4
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	ef8635ec22348325a76abd2abddca4a1
+Patch0:		%{name}-cvs.patch
 URL:		http://pecl.php.net/package/idn/
 BuildRequires:	libidn-devel
 BuildRequires:	php-devel >= 3:5.0.0
@@ -31,6 +32,7 @@ To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
+%patch0 -p1
 
 %build
 cd %{_modname}-%{version}
