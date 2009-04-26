@@ -1,7 +1,7 @@
 %define		_modname	idn
 %define		_status		beta
-Summary:	idn - binding to the GNU libidn
-Summary(pl.UTF-8):	idn - wiązanie do GNU libidn
+Summary:	%{_modname} - binding to the GNU libidn
+Summary(pl.UTF-8):	%{_modname} - wiązanie do GNU libidn
 Name:		php-pecl-idn
 Version:	0.2.0
 Release:	1
