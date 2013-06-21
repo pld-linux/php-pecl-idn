@@ -1,8 +1,9 @@
+%define		php_name	php%{?php_suffix}
 %define		modname	idn
 %define		status	beta
 Summary:	%{modname} - binding to the GNU libidn
 Summary(pl.UTF-8):	%{modname} - wiązanie do GNU libidn
-Name:		php-pecl-idn
+Name:		%{php_name}-pecl-idn
 Version:	0.2.0
 Release:	2
 License:	PHP 3.0
@@ -10,11 +11,11 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	f42dadf9b15bfc897458ff8735f05f78
 URL:		http://pecl.php.net/package/idn/
+BuildRequires:	%{php_name}-devel >= 3:5.0.0
 BuildRequires:	libidn-devel
-BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.344
+BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
-Requires:	php-common >= 4:5.0.4
+Requires:	php(core) >= 5.0.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
