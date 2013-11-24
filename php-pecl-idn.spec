@@ -5,7 +5,7 @@ Summary:	%{modname} - binding to the GNU libidn
 Summary(pl.UTF-8):	%{modname} - wiązanie do GNU libidn
 Name:		%{php_name}-pecl-idn
 Version:	0.2.0
-Release:	2
+Release:	3
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
@@ -16,6 +16,7 @@ BuildRequires:	libidn-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
